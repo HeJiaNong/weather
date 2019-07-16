@@ -1,0 +1,30 @@
+{
+    "name": "hejiang\/weather",
+    "description": "A weather SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HeJiang",
+            "email": "jianonghe@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.2",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hejiang\\Weather\\": "./src"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers": [
+                "Hejiang\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}
