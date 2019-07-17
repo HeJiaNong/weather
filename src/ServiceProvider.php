@@ -1,12 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: jianong
- * Date: 2019-07-16
- * Time: 20:47
- */
-
-namespace Hejiang\Weather;
+namespace CannonSir\Weather;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

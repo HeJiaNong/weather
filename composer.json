@@ -1,10 +1,10 @@
 {
-    "name": "hejiang\/weather",
+    "name": "cannonsir\/weather",
     "description": "A weather SDK",
     "license": "MIT",
     "authors": [
         {
-            "name": "HeJiang",
+            "name": "jianong",
             "email": "jianonghe@gmail.com"
         }
     ],
@@ -17,13 +17,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Hejiang\\Weather\\": "./src"
+            "CannonSir\\Weather\\": "./src"
         }
     },
     "extra": {
         "laravel" : {
             "providers": [
-                "Hejiang\\Weather\\ServiceProvider"
+                "CannonSir\\Weather\\ServiceProvider"
             ]
         }
     }
