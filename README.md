@@ -6,7 +6,7 @@
 ## 安装
 
 ```shell
-    $ composer require cannonsir/weather -vvv
+$ composer require cannonsir/weather -vvv
 ```
 
 
